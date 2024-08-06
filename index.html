@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="decodificador.js" defer></script>
+</head>
+<body>
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="imagem.img.jpg" alt="logo criptografar">
+        </header>
+        
+    <div class="container-input">
+        <div class="input">
+            <textarea id="input-texto" placeholder="Digite um texto"></textarea>
+            <p>Atenção: Apenas letras maiusculas e sem acento.</p>
+        </div>
+        
+        <div id="output">
+                 <img class="output__imagem" src="imagem.img.jpg" alt="logo criptografar">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <p>Digite um texto que voce deseja criptografar ou descriptografar.</p>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="container-bnt" >
+            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+        </div>
+    </div>
+        
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Douglas Xavier</p>
+    </footer>  
+</body>
+</html>
+
